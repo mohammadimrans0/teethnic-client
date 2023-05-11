@@ -73,7 +73,7 @@ const AddDoctor = () => {
   return (
     <div className="h-[800px] flex justify-center items-center">
       <div className="w-96 p-7">
-        <h3 className="text-4xl text-center mb-8">Add a Doctor</h3>
+        <h3 className="text-4xl text-center">Add a Doctor</h3>
         <form className="mb-6" onSubmit={handleSubmit(handleAddDoctor)}>
           <div className="form-control w-full">
             <label className="label">

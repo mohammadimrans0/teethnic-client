@@ -7,7 +7,8 @@ const Banner = () => {
       <div className="grid lg:grid-cols-2 gap-4 my-8">
         <div>
           <h1 className="text-4xl font-semibold lg:text-7xl lg:font-bold lg:leading-tight">
-            Your New Smile <br /> Starts Here
+            Your <span className="text-primary">New Smile</span> <br />{" "}
+            <span className='text-secondary'>Starts</span> Here
           </h1>
           <p className="py-6">
             Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
